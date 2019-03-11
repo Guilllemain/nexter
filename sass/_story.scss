@@ -2,7 +2,10 @@
 	&__pictures {
 		grid-column: full-start / col-end 4;
 		background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url('../img/back.jpg');
-		background-size: cover;
+		background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
 		grid-template-rows: repeat(6, 1fr);
